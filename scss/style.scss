@@ -1,0 +1,32 @@
+$dark-blue: hsl(233, 26%, 24%);
+$lime-green: hsl(136, 65%, 51%);
+$bright-cyan: hsl(192, 70%, 51%);
+$grayish-blue: hsl(233, 8%, 62%);
+$light-grayish-blue: hsl(220, 16%, 96%);
+$very-light-gray: hsl(0, 0%, 98%);
+$white: hsl(0, 0%, 100%);
+$black-20: rgba(0, 0, 0, 0.3);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Public Sans", sans-serif;
+  background-color: $white;
+}
+
+// ------Font Sizes-----
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+@import "./components";
+@import "./typography";
+@import "./layouts";
+@import "./desktop";

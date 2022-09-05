@@ -1,0 +1,36 @@
+@media (min-width: 900px) {
+  .nav__contact {
+    display: block;
+  }
+  .overlay {
+    visibility: unset;
+  }
+  .overlay.open {
+    visibility: unset;
+    display: none;
+  }
+  .nav__hamburger {
+    display: none;
+  }
+  .nav__links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .nav__menu {
+    position: unset;
+    visibility: unset;
+    transform: unset;
+    opacity: unset;
+    padding: 0;
+    width: unset;
+    transition: none;
+  }
+  .nav__item {
+    padding: 1rem;
+  }
+  .nav__item + .nav__item {
+    margin-left: 1%;
+  }
+}
