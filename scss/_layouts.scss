@@ -2,3 +2,67 @@
   width: 80%;
   margin: 0 auto;
 }
+//---Home
+.home__wrapper {
+  margin: 100vw auto 0;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+//---blog/articles
+#about {
+  background-color: $light-grayish-blue;
+  padding: 2.5rem 0;
+}
+.about__intro {
+  margin: 2rem 0;
+}
+.about__card {
+  text-align: center;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+#articles {
+  padding: 2.5rem 0;
+}
+.article {
+  background-color: $white;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+//----footer
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0 2rem;
+}
+.socials {
+  margin-top: 1rem;
+}
+.footer__socials {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  margin: 1.5rem auto;
+}
+.socials__item + .socials__item {
+  margin-left: 1rem;
+}
+.footer__links {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
+}
+.footer__link__item {
+  margin: 1.2rem 0;
+}
+.footer__link {
+  color: $white;
+  text-decoration: none;
+}
+.extra {
+  text-align: center;
+}

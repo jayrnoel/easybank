@@ -13,6 +13,7 @@
 .nav__link {
   text-decoration: none;
   color: $dark-blue;
+  padding: 1.2rem 2rem;
 }
 .logo {
   display: flex;
@@ -31,8 +32,7 @@
   overflow: hidden;
   opacity: 0;
   transform: translateY(-20px);
-  // transition: all 250ms ease;
-  transition: opacity 250ms ease, transform 250ms ease, visibility 250ms ease;
+  transition: all 250ms ease;
 }
 .nav__menu.open {
   visibility: visible;
@@ -76,16 +76,52 @@
   visibility: visible;
   opacity: 1;
 }
-
-// ----home----
-.home__bg__img {
-  position: absolute;
-  top: 60px;
-  width: 100%;
-  z-index: -1;
+.nav__contact__btn,
+.primary-btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  color: $white;
+  background: linear-gradient(to right, $lime-green, $bright-cyan);
+  &:hover {
+    background: linear-gradient(to right, $lime-green-a, $bright-cyan-a);
+  }
 }
+// ----home----
 .home__mockups {
-  position: relative;
-  top: -60px;
+  position: absolute;
   width: 100%;
+  top: -80px;
+  z-index: 0;
+}
+.home__bg--mobile {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -60px;
+  z-index: 0;
+}
+.home__bg--desktop {
+  display: none;
+}
+
+.article__img {
+  max-width: 100%;
+}
+
+// ----articles
+.article__body {
+  padding: 1rem 1.5rem;
+}
+.article__img {
+  object-fit: cover;
+  min-height: 217px;
+  max-height: 217px;
+  width: 100%;
+}
+
+//----footer
+#footer {
+  background-color: $dark-blue;
 }
