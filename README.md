@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jayrnoel/easybank](https://github.com/jayrnoel/easybank)
+- Live Site URL: [https://precious-tulumba-1aa13c.netlify.app](https://precious-tulumba-1aa13c.netlify.app)
 
 ## My process
 
