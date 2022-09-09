@@ -49,16 +49,17 @@
     margin-left: 1.5rem;
   }
   .extra {
-    text-align: right;
+    // text-align: right;
     grid-column: span 3;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
     padding: 2rem 0;
   }
   .copyright {
-    margin: -2rem 0 0;
+    margin: -20px 0 0;
   }
 }
 
