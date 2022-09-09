@@ -53,6 +53,14 @@
   font-size: 1rem;
 }
 
+.footer__link {
+  color: $white;
+  text-decoration: none;
+}
+.extra {
+  text-align: center;
+}
+
 @media (min-width: 900px) {
   .home__welcome__text {
     text-align: left;

@@ -4,7 +4,7 @@
 }
 //---Home
 .home__wrapper {
-  margin: 100vw auto 0;
+  margin: 100vw auto 3rem;
   padding-top: 0.5rem;
   text-align: center;
 }
@@ -32,12 +32,13 @@
 }
 
 //----footer
-#footer .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footer__wrapper {
+  display: grid;
   justify-content: center;
   padding: 3rem 0 2rem;
+}
+.footer__cluster {
+  text-align: center;
 }
 .socials {
   margin-top: 1rem;
@@ -46,6 +47,7 @@
   list-style-type: none;
   padding-left: 0;
   display: flex;
+  justify-content: center;
   margin: 1.5rem auto;
 }
 .socials__item + .socials__item {
@@ -58,11 +60,4 @@
 }
 .footer__link__item {
   margin: 1.2rem 0;
-}
-.footer__link {
-  color: $white;
-  text-decoration: none;
-}
-.extra {
-  text-align: center;
 }
