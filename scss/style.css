@@ -300,6 +300,23 @@ body {
   text-align: center;
 }
 
+@media (min-width: 720px) {
+  .about__wrapper,
+.articles__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about__card {
+    text-align: left;
+    width: 49%;
+    margin: 0.5rem 0;
+  }
+  .article {
+    width: 49%;
+    margin: 0.5rem 0;
+  }
+}
 @media (min-width: 920px) {
   main {
     overflow: hidden;
@@ -393,18 +410,6 @@ body {
   .about__intro {
     max-width: 620px;
   }
-  .about__wrapper,
-.articles__wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .about__card {
-    text-align: left;
-    width: 23%;
-  }
-  .article {
-    width: 24%;
-  }
   #footer .container {
     flex-direction: row;
     justify-content: space-between;
@@ -443,6 +448,13 @@ body {
   }
   .home__mockups {
     right: -120px;
+  }
+  .about__card {
+    text-align: left;
+    width: 23%;
+  }
+  .article {
+    width: 24%;
   }
 }
 
